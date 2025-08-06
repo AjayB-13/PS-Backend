@@ -1,6 +1,8 @@
 # Backend: Password Reset API
 
 ## gmail-id stored in DB - ajaybabu1109@gmail.com
+## ResetPassword url- (After checking existing mail in database)
+    (https://passwordresetflow11.netlify.app/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OTM5ZWQ3NDM4MzllYjYxZDg3NGQxNSIsImlhdCI6MTc1NDUxMjUyNywiZXhwIjoxNzU1ODA4NTI3fQ.whsMN1rQCKLXzhjiXLEszYEESX8yAqnt3QGmcx0Dk_Y)
 
 This is the backend API for the password reset application. It is responsible for handling all the business logic, database interactions, token management, and email sending. The API follows a Model-View-Controller (MVC) structure for clean organization and scalability.
 
@@ -24,7 +26,7 @@ This is the backend API for the password reset application. It is responsible fo
 - **CORS:** To enable communication with the frontend.
 - **Dotenv:** To manage environment variables securely.
 
-## 🤝 API Endpoints
+##  API Endpoints
 
 -   **`POST /api/register`**: Registers a new user.
     -   Body: `{ "email": "user@example.com", "password": "securepassword" }`
